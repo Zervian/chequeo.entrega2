@@ -618,26 +618,62 @@ section h2{
 
 }
     
-
-
-
-
-
-
-
-
 @media (min-width: 1024px){ /* pc */
 
 
     /* se mantiene  */
 
 
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* animaciones  */
+
+
+
+
+
+
+.headerAnime {
+    animation-name: encabezado;
+    animation-iteration-count: 1 ;
+    animation-duration: 4s;
+    
 }
 
+@keyframes encabezado {
+    from {                  /* INICIO  */
+          transform: translatey(-200px); 
+          opacity: 0;             /* estilos */ 
 
+       }
 
+    to  /* fianl */ {
+        transform: translate(0px); 
+        opacity: 1;                 /* estilos */
+     }
 
-
-
-
+    }
 
